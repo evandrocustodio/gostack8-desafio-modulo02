@@ -5,13 +5,7 @@ import User from '../models/User';
 class AutenticationController {
   async store(req, res) {
     const { email, password } = req.body;
-    /*
-    await User.create({
-      name: 'EVANDRO CUSTODIO GONÇALVES',
-      email: 'evandrocustodio@gmail.com',
-      password: '736401',
-    });
-*/
+
     const user = await User.findOne({ where: { email } });
 
     if (!user) {
