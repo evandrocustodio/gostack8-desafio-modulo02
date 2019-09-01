@@ -5,7 +5,7 @@ import autorize from './middlewares/autorize';
 
 const router = new Router();
 
-router.post('/autenticate', AutenticationController.store);
+router.post('/authenticate', AutenticationController.store);
 
 router.post('/users', autorize, UserController.store);
 
