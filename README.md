@@ -7,3 +7,7 @@
 | `http://localhost:3000/authenticate` | POST   | Autenticar usuário |
 | `http://localhost:3000/users`        | POST   | Adicionar Usuário  |
 | `http://localhost:3000/users`        | PUT    | Atualizar Usuário  |
+
+### Autor
+
+Evandro Custódio
